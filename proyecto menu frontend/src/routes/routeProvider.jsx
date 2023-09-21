@@ -3,6 +3,7 @@ import NotFound from "./notFound";
 import Layout from './layout'
 import Index from './index'
 import Login from './login'
+import Registro from "./registro";
 
 export const browserRouter = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const browserRouter = createBrowserRouter([
           {
             path: "/login",
             element: <Login />,
+          },
+          {
+            path: "/registro",
+            element: <Registro />,
           },
           
         ],

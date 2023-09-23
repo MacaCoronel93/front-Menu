@@ -4,6 +4,7 @@ import Layout from './layout'
 import Index from './index'
 import Login from './login'
 import Registro from "./registro";
+import Nosotros from "./nosotros";
 
 export const browserRouter = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const browserRouter = createBrowserRouter([
           {
             path: "/registro",
             element: <Registro />,
+          },
+          {
+            path: "/nosotros",
+            element: <Nosotros />,
           },
           
         ],

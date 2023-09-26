@@ -26,11 +26,12 @@ Gracias por ser parte de nuestra historia!</b></p>
       </div>
         <h2>Quienes somos?</h2>
       <div className='integrantes'>
-      <h3><img className='integrante fix' src="/tania.jpeg" alt="" />TANIA ARGAÑARAZ</h3>
+      <h3><img className='integrante' src="public/tania.jpeg" alt="" />TANIA ARGAÑARAZ</h3>
       <h3><img className='integrante' src="/fede pistan.jpeg" alt="" /> FEDERICO PISTAN </h3>
       <h3><img className='integrante' src="/sofi.jpeg" alt="" />SOFIA ROBINSON </h3>
-      <h3><img className='integrante fix' src="/maca.jpeg" alt="" />MACARENA CORONEL </h3>
-      <h3><img className='integrante' src="/fede pistan.jpeg" alt="" /> GONZALO VILLAFAÑE </h3>
+      <h3><img className='integrante ' src="public/maca.jpeg" alt="" />MACARENA CORONEL </h3>
+      <h3><img className='integrante ' src="/gonzalo proyecto.jpg" alt="" /> GONZALO VILLAFAÑE </h3>
+      <h3><img className='integrante fix' src="public/flor proyecto.jpg" alt="" /> FLORENCIA QUIROGA </h3>
       </div>
       <footer>
         

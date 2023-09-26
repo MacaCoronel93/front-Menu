@@ -10,11 +10,14 @@ body{
   .integrantes{
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
+    margin-left: 0.7vw;
   }
   h3{
-    margin: 3vw;
-    color: #805452;
+    margin: 4vw;
+    color: #693532;
     text-shadow: 2px 4px 6px rgb(171, 126, 42);
+    align-content: center;
   }
   .intro{
     font-size:4vw;
@@ -68,9 +71,6 @@ body{
   align-items: center;
   margin: 1.5vw;
   }
-.fix{
-  width: 11vw;
-}
 
   @media (max-width: 890px){
     .intro{
@@ -98,9 +98,7 @@ body{
     height: 30vw;
     margin-right: 2.5vw;
   }
-  .fix{
-    width: auto;
-  }
+
   .barFoto{
     display: none
   }

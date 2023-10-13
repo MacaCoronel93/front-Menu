@@ -1,5 +1,5 @@
 import './nosotros.css'
-import '../components/Footer';
+
 
 function NosotrosPage() {
 
@@ -8,7 +8,7 @@ function NosotrosPage() {
 
   return (
     <>
-    <body>
+    
       
     
       <div>
@@ -33,10 +33,7 @@ Gracias por ser parte de nuestra historia!</b></p>
       <h3><img className='integrante ' src="/gonzalo proyecto.jpg" alt="" /> GONZALO VILLAFAÑE </h3>
       <h3><img className='integrante fix' src="public/flor proyecto.jpg" alt="" /> FLORENCIA QUIROGA </h3>
       </div>
-      <footer>
-        
-      </footer>
-      </body>
+      
     </>
   )
 }

@@ -2,19 +2,20 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import './Stylenavbar.css' 
 
 export const NavBar = () => {
 
 
     return (
-      <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bgnavbar">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand href="#home">NUESTRO RESTO</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className='dropdown'/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
+              <Nav.Link href="#home">LOGIN</Nav.Link>
+              <Nav.Link href="#link">REGISTRO</Nav.Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -32,5 +33,6 @@ export const NavBar = () => {
       </Navbar>
     );
   }
+  
   
   

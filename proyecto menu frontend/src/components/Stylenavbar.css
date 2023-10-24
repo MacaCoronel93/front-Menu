@@ -1,0 +1,17 @@
+/*.bgnavbar {
+    background: #750401 !important ; 
+    font-family: 'Lato', sans-serif !important;
+}
+.dropdown:hover{
+    background-color: #E9D3B0;
+    font-family: 'Lato', sans-serif !important;
+}*/
+.bgnavbar {
+
+    border-top: 0.2vw #610301 solid ;  
+    width: 100%;
+    background: rgb(228,175,173) !important ;
+    background: linear-gradient(184deg, rgba(228,175,173,1) 0%, #633d3b 100%) !important ;
+    box-shadow: 2px 2px 3px black !important;
+    font-family: 'lato' bold;
+    }
